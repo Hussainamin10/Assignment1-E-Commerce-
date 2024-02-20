@@ -1,10 +1,10 @@
-//do we create a new folder to do the assignment or same eComH4S1
-
 <?php
+
 namespace app\models;
 
 class Counter{
-    $count;
+    public $count;
+
     public function __construct(){
         $filename = '/resources/counter.txt';
         if(file_exists($filename)){
@@ -15,7 +15,8 @@ class Counter{
         } else {
             $count = '{"count":0}';
         }
-        this->count = json_decode($count, true)['count'];
+        $this->$count = json_decode($count, true)['count'];
+
     }
 
     public function increment(){
@@ -23,9 +24,9 @@ class Counter{
     }
 
     public function write(){
-        $filename = '/resources/counter.txt';
+        $filename = 'resources/counter.txt';
         $count = json_encode($this);
-        $file_handle = fopen($filename, 'a');//do we need to append or write to the file?
+        $file_handle = fopen($filename, 'w');//do we need to append or write to the file?
         flock($file_handle, LOCK_EX);
         fwrite($file_handle, $count . "\n");
         flock($file_handle, LOCK_UN);
@@ -36,3 +37,4 @@ public function __toString(){
     return $count = json_encode($this);
 }
 }
+//do we create a new folder to do the assignment or same eComH4S1

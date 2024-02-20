@@ -5,8 +5,11 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-<h5>Landing Page</h5>
-        <p>Welcome the the Web application.
-            <br> We aim the please.</p>
+<ul>
+  <li><a class="active" href="index">Landing Page</a></li>
+  <li><a href="index">About us</a></li>
+  <li><a href="contact">Contact us</a></li>
+  <li><a href="about">See the messages we get</a></li>
+</ul>
 </body>
 </html>

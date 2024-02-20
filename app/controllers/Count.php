@@ -8,6 +8,6 @@ function index(){
     $counter->increment();
     $counter->write();
     echo $counter;
-    
+
 }
 }
