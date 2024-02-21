@@ -6,7 +6,7 @@
 </head>
 <body>
 <ul>
-  <li><a class="active" href="index">About Us</a></li>
+  <li><a class="active" href="index">Landing Page</a></li>
   <li><a href="index">About us</a></li>
   <li><a href="contact">Contact us</a></li>
   <li><a href="about">See the messages we get</a></li>
@@ -19,7 +19,17 @@
     <title>Image Example</title>
 </head>
 <body>
-<img src="image.jpg" alt="Description of the image">
+<body>
+    <h1>About Us</h1>
+    <div class="team-member">
+        <img src="image.jpg" alt="Person 1">
+        <figcaption>Bob loves making money on the stock market floor.</figcaption>
+    </div>
+    <div class="team-member">
+        <img src="image2.jpg" alt="Person 2">
+        <figcaption>Amy keeps Johnny in check.</figcaption>
+    </div>
+</body>
 
 </body>
 </html>

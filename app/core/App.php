@@ -36,6 +36,7 @@ class App{
                     'Count/index'=>'Count,index',
                     'Main/index'=>'Main,index',
                     'Main/menu'=>'Main,menu',
+                    'Main/about_us'=>'Main,about_us'
                 ];
 
         //one by one compare the url to resolve the route

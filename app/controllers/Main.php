@@ -11,4 +11,8 @@ function index(){
     		//showing the register view
 		$this->view('Main/index');
 }
+
+function about_us(){
+	$this->view('Main/about_us');
+}
 }
