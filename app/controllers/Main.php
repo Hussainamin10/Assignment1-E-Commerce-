@@ -13,6 +13,8 @@ function index(){
 }
 
 function about_us(){
+	$this->view('Main/menu');
+
 	$this->view('Main/about_us');
 }
 }

@@ -19,17 +19,21 @@
     <title>Image Example</title>
 </head>
 <body>
-<body>
-    <h1>About Us</h1>
-    <div class="team-member">
-        <img src="image.jpg" alt="Person 1">
-        <figcaption>Bob loves making money on the stock market floor.</figcaption>
-    </div>
-    <div class="team-member">
-        <img src="image2.jpg" alt="Person 2">
-        <figcaption>Amy keeps Johnny in check.</figcaption>
+<h1>About Us</h1>
+    <p>Introduce your team – put your pictures in images, in figures, with captions.</p>
+    <div>
+        <figure>
+            <img src="images/image1.jpg" alt="Team Member 1">
+            <figcaption>Team Member 1</figcaption>
+        </figure>
+        <figure>
+            <img src="images/team_member2.jpg" alt="Team Member 2">
+            <figcaption>Team Member 2</figcaption>
+        </figure>
+        <!-- Add more team members as needed -->
     </div>
 </body>
+</html>
 
 </body>
 </html>
