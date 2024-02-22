@@ -34,7 +34,6 @@ class Counter{
 }
 
 public function __toString(){
-    return $count = json_encode($this);
+    return json_encode($this);
 }
 }
-//do we create a new folder to do the assignment or same eComH4S1

@@ -7,9 +7,9 @@
 <body>
 <ul>
   <li><a class="active" href="index">Landing Page</a></li>
-  <li><a href="index">About us</a></li>
-  <li><a href="contact">Contact us</a></li>
-  <li><a href="about">See the messages we get</a></li>
+  <li><a href="about_us">About us</a></li>
+  <li><a href="">Contact us</a></li>
+  <li><a href="">See the messages we get</a></li>
 </ul>
 </body>
 </html>

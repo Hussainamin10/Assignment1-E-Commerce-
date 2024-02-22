@@ -5,7 +5,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-<h5>Landing Page</h5>
+<h3>Landing Page</h3>
         <p>Welcome the the Web application.
             <br> We aim the please.</p>
 </body>

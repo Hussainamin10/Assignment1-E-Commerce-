@@ -25,6 +25,8 @@
 			<div class="form-group">
 				<input type="submit" name="action" value="Register" /> 
 				<a href='/Person/'>Cancel</a>
+				<img src= "test.jpg" alt="Person 1">
+
 			</div>
 		</form>
 	</div>
