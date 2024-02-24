@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>
         <?= $name ?> view
@@ -14,11 +15,11 @@
     <h3>Contact us</h3>
     <div id='container'>
         <p>Wanna reach us? Write your email information and message in the following form and then submit it.</p>
-        <form method='post' action='/Contact/read'>
+        <form method='post' action='/Contact/write'>
             <table border="0">
                 <tr>
                     <td><label>Email:</label></td>
-                    <td><input type="email" name="email" placeholder="jondoe@email.com" style="width: 550px" /></td>
+                    <td><input type="email" name="email" style="width: 550px" /></td>
                 </tr>
                 <tr>
                     <td><label>Message:</label></td>

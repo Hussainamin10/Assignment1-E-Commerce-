@@ -3,18 +3,20 @@ namespace app\controllers;
 
 use stdClass;
 
-class Main extends \app\core\Controller{
+class Main extends \app\core\Controller
+{
 
-function index(){
-    $this->view('Main/menu');
+	function index()
+	{
+		$this->view('/Main/menu');
 
-    		//showing the register view
-		$this->view('Main/index');
-}
+		$this->view('/Main/index');
+	}
 
-function about_us(){
-	$this->view('Main/menu');
+	function about_us()
+	{
+		$this->view('/Main/menu');
 
-	$this->view('Main/about_us');
-}
+		$this->view('/Main/about_us');
+	}
 }
