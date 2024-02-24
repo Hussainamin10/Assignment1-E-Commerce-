@@ -1,0 +1,2 @@
+{"first_name":"Ali","last_name":"Amin","email":"gds@gmail.com","weekly_flyer":true,"mailing_list":false}
+{"first_name":null,"last_name":null,"email":null,"weekly_flyer":false,"mailing_list":false}
