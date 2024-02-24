@@ -2,12 +2,14 @@
 
 namespace app\models;
 
-class Counter{
+class Counter
+{
     public $count;
 
-    public function __construct(){
+    public function __construct()
+    {
         $filename = '/resources/counter.txt';
-        if(file_exists($filename)){
+        if (file_exists($filename)) {
             $file_handle = fopen($filename, 'r');
             flock($file_handle, LOCK_SH);
             $count = fread($file_handle, filesize($filename));
@@ -19,21 +21,24 @@ class Counter{
 
     }
 
-    public function increment(){
+    public function increment()
+    {
         $this->count++;
     }
 
-    public function write(){
+    public function write()
+    {
         $filename = 'resources/counter.txt';
         $count = json_encode($this);
-        $file_handle = fopen($filename, 'w');//do we need to append or write to the file?
+        $file_handle = fopen($filename, 'w');
         flock($file_handle, LOCK_EX);
         fwrite($file_handle, $count . "\n");
         flock($file_handle, LOCK_UN);
         fclose($file_handle);
-}
+    }
 
-public function __toString(){
-    return json_encode($this);
-}
+    public function __toString()
+    {
+        return json_encode($this);
+    }
 }

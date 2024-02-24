@@ -1,13 +1,15 @@
 <?php
 namespace app\controllers;
 
-class Count{
+class Count
+{
 
-function index(){
-    $counter = new \app\models\Counter();
-    $counter->increment();
-    $counter->write();
-    echo $counter;
+    function index()
+    {
+        $counter = new \app\models\Counter();
+        $counter->increment();
+        $counter->write();
+        echo $counter;
 
-}
+    }
 }
